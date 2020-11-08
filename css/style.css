@@ -1,0 +1,234 @@
+html, body{
+    scroll-behavior: smooth;
+    text-align: center;
+    background: #E7E7E7;
+}
+
+.loader-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: #3498db;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader{
+    25%{
+        color: #2ecc71;
+    }
+    50%{
+        color: #f1c40f;
+    }
+    75%{
+        color: #e74c3c;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.navbar {
+    background: black !important;
+}
+.navbar, ul.navbar-nav, li.navbar-item, .nav-link {
+    color: #b9b9b9 !important;
+}
+.navbar, ul.navbar-nav, li.navbar-item, .nav-link:hover {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 1.2rem;
+    color: #0ba72e !important;
+}
+.navbar-brand {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: #b9b9b9 !important;
+    padding: 0 !important;
+    margin: 0;
+    letter-spacing: 0.7rem;
+    text-align: center;
+    border-right: 0.1rem solid gray;
+}
+.navbar-brand:hover {
+    color: rgb(143, 143, 143) !important;
+}
+.col-sm-3 a .fa-facebook-f:hover {
+    color: #0D8AF0 !important;
+}
+.col-sm-3 a .fa-instagram:hover {
+    color: #e66791 !important;
+}
+.col-sm-3 a .fa-twitter:hover {
+    color: #71C9F8 !important;
+}
+.col-sm-3 a .fa-youtube:hover {
+    color: #ff0202 !important;
+}
+#container1 {
+    margin-top: 4.4rem;
+}
+#container2 {  
+    background: #E7E7E7;
+    height: 100%;
+}
+.col-lg-12 {
+    margin-top: 30vh;
+}
+.col-lg-12 h2 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+    letter-spacing: 0.3rem;
+}
+.col-lg-12 p {
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svg-wrapper {
+    position: relative;
+    top: 8vh;
+    transform: translateY(-50%);
+        margin: 0 auto;
+    width: 200px;  
+  }
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -291;
+    stroke-width: 4px;
+    stroke: #00fd39;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.75rem;
+    letter-spacing: 6px;
+    color: #676767;
+    top: -48px;
+    position: relative;
+  }
+  .text a {
+      text-decoration: none;
+      font-family: 'Gayathri', sans-serif;
+      font-size: 1.375rem;
+      line-height: 2.75rem;
+      letter-spacing: 6px;
+      color: #a2a2a2;
+  }
+  .text a:hover {
+      color: #c2bfbf;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
+#container3 {  
+    background: #E7E7E7;
+    height: 100%;
+}
+#mainalbum {
+    background: black;
+}
+#musictitle {
+    margin-top: 13vh;
+}
+.a-link {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color:#a2a2a2;
+    text-decoration: none !important;
+}
+.a-link:hover {
+    color: green;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.fab {
+    color: white;
+}
+.fa-apple:hover {
+    color: red;
+}
+.fa-spotify:hover {
+    color: green;
+}
+.fa-amazon:hover {
+    color: #FF9D09;
+}
+#container4 {
+    background: #E7E7E7;
+    height: 100%;
+}
+#container5 {
+    background: #E7E7E7;
+    height: 100vh;
+}
+.spotifydiv {
+    background: #8fd641;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facediv {
+    background: #5b7dec;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maildiv {
+    background: #858586;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkup {
+    text-decoration: none !important;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.linkup:hover {
+    color: #414141;
+}
+.footext {
+    display: inline-block;
+    margin-top: 11rem;
+    color: black;
+    text-decoration: none !important;
+}
+.footext:hover {
+    color: black;
+}
